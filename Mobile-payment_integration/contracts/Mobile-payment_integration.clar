@@ -153,7 +153,6 @@
     (ok tip-id)
   )
 )
-
 ;; End a performance session
 (define-public (end-session (session-id uint))
   (let (
