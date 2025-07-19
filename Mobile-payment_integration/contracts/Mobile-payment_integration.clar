@@ -98,7 +98,6 @@
     (ok session-id)
   )
 )
-
 ;; Send a tip to a performer's active session
 (define-public (send-tip (session-id uint) 
                         (amount uint) 
