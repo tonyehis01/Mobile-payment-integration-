@@ -170,7 +170,6 @@
     (ok true)
   )
 )
-
 ;; Read-only functions for querying data
 
 (define-read-only (get-performer (performer-id uint))
