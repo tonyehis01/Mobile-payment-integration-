@@ -51,7 +51,6 @@
 
 ;; Platform fee (1% = 100 basis points)
 (define-data-var platform-fee-bps uint u100)
-
 ;; Register a new performer
 (define-public (register-performer (name (string-ascii 50)) 
                                  (instrument (string-ascii 30)) 
